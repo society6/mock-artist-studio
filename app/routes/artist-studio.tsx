@@ -8,7 +8,8 @@ export async function loader({context}: loaderfunctionargs) {
 export default function ArtistStudio() {
   return (
     <div>
-      <h1>Artist Studio</h1>
+      <section>Nav</section>
+      <section>Body</section>
     </div>
   );
 }
