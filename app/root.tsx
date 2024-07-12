@@ -64,7 +64,7 @@ export async function loader(args: LoaderFunctionArgs) {
 
   // Await the critical data required to render initial state of the page
   const criticalData = await loadCriticalData(args);
-
+  
   const {storefront, env} = args.context;
 
   return defer(

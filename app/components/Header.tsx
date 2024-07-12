@@ -104,6 +104,9 @@ function HeaderCtas({
   return (
     <nav className="header-ctas" role="navigation">
       <HeaderMenuMobileToggle />
+      <NavLink prefetch="intent" to="/artist-studio" style={activeLinkStyle}>
+        <h1>Artist Studio</h1>
+      </NavLink>
       <NavLink prefetch="intent" to="/account" style={activeLinkStyle}>
         <Suspense fallback="Sign in">
           <Await resolve={isLoggedIn} errorElement="Sign in">
