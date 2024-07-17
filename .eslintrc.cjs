@@ -16,4 +16,7 @@ module.exports = {
     'no-case-declarations': 'off',
     'no-console': ['warn', {allow: ['warn', 'error']}],
   },
+  colors: {
+      clay: 'rgba(242, 236, 228, 1)'
+  },
 };
