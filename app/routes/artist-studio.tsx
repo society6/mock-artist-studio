@@ -1,4 +1,5 @@
 import {redirect, type loaderfunctionargs} from '@shopify/remix-oxygen';
+import society6 from '/public/society6-logo-black-nav.png'
 
 // fallback wild card for all unauthenticated routes in account section
 export async function loader({context}: loaderfunctionargs) {
@@ -18,9 +19,14 @@ export default function ArtistStudio() {
 
       <section className="w-64 bg-amber-100 fixed h-full">
         <div className='my-2 mb-2'>
-        <h1 className="text-2xl text-black font-bold">Society6</h1>
+          <div className='ml-4'>
+            <img src={society6} className='size-1/2'/>
+          <div className='text-sm font-sans'>
+            Artist Studio
+          </div>
+          </div>
         </div>
-        <hr />
+        
         <ul className="mt-3 text-black font-bold ml-3">
           <li className="mb-2 rounded hover:shadow hover:bg-blue-400 py-2">
             ∆
