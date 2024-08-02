@@ -5,7 +5,7 @@ export default {
   content: ['./app/**/*.{js,jsx,ts,tsx}', './src/*.html'],
   theme: {
     colors: {
-      siteBackground: 'rgba(242, 236, 228, 1)',
+      mainColorTheme: 'rgba(242, 236, 228, 1)',
     },
     extend: {},
     fontFamily: {
