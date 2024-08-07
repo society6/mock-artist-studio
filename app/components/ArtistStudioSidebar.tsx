@@ -12,7 +12,7 @@ import {NavLink} from '@remix-run/react';
 
 export default function ArtistStudioSidebar() {
   return (
-    <section className="w-64 bg-mainColorTheme">
+    <section className="w-72 h-max bg-mainColorTheme">
       <div className="my-2 mb-2">
         <div className="ml-4">
           <img src={society6} className="size-1/2" alt="" />

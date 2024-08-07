@@ -6,6 +6,7 @@ export default {
   theme: {
     colors: {
       mainColorTheme: 'rgba(242, 236, 228, 1)',
+      asBackground: 'rgba(251, 250, 246, 1)',
     },
     extend: {},
     fontFamily: {
